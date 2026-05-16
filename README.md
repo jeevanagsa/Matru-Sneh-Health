@@ -5,6 +5,10 @@
 
 ---
 
+## 📥 [👉 DOWNLOAD THE WORKING APK HERE 👈](https://github.com/jeevanagsa/Matru-Sneh-Health/releases/download/v1.0/Matru-Sneh-Health-v1.0.apk)
+
+---
+
 <p align="center">
   <img src="logo.png" width="180" alt="Matru-Sneh Health Logo">
 </p>
