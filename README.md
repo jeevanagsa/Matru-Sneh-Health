@@ -97,7 +97,7 @@ Follow these simple steps to download and run this prototype project locally on 
    ```bash
    git clone [https://github.com/jeevanagsa/Matru-Sneh-Health.git](https://github.com/jeevanagsa/Matru-Sneh-Health.git)
 
-2. **Open in Android Studio:**
+2. Open in Android Studio:
 
 Launch Android Studio.
 
@@ -105,13 +105,13 @@ Click File -> Open and select the cloned directory.
 
 Allow Gradle to sync and build project dependencies completely.
 
-3.**Run the Application:**
+ 3.Run the Application:
 
 Connect your physical Android test device via USB (with USB Debugging turned on) or boot up your virtual emulator.
 
 Press Shift + F10 (Windows) or Control + R (Mac) to install and launch the application natively.   
+5. Success Criteria Met
 
-5. **Success Criteria Met**
 [x] Debouncing Protection: Implemented an automatic input guard preventing double-taps on the Fetal Kick Counter.
 
 [x] Clear Danger Actions: Formatted high-contrast alert states directing users to take urgent action when observing critical symptoms.
@@ -120,18 +120,9 @@ Press Shift + F10 (Windows) or Control + R (Mac) to install and launch the appli
 
 [x] 100% Offline Integrity: Designed to work entirely without an internet connection or cloud login screens
 
-6. **License & Intent**
+6. License & Intent
 This project is developed solely for educational and internal internship demonstration requirements under the MindMatrix VTU Internship Program.
-*(Note: Remember to change `jeevanagsa` in the installation section to your real GitHub profile username!)*
 
 ---
 
-## Step 4: Add Your Demo Screenshots/Video
-Since you already have a great demonstration video of the app running on your phone, you should showcase it! 
 
-1. Create a folder in your project repository on GitHub named `screenshots`.
-2. Upload a copy of your screen recording video or a couple of high-quality screenshots showing your newly built layouts.
-3. You can reference them directly inside the README using:
-   `![App Demo](screenshots/your_video_or_image.gif)`
-
-This complete setup gives your evaluator a highly polished overview of your technical stack, features, and success criteria right on the main page.
