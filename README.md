@@ -53,54 +53,6 @@ Follow these simple steps to download and run this prototype project locally on 
    git clone [https://jeevanagsa/Matru-Sneh-Health.git](https://github.com/jeevanagsa/Matru-Sneh-Health.git)
    # Matru-Sneh Health (ಮಾತೃ-ಸ್ನೇಹ ಹೆಲ್ತ್) 💝
 
-### 📱 Pocket Pregnancy Guide for Rural Maternal Healthcare
-*Developed as part of the **MindMatrix VTU Internship Program (Project Title: 91)**.*
-
----
-
-<p align="center">
-  <img src="logo.png" width="180" alt="Matru-Sneh Health Logo">
-</p>
-
-## 📌 1. Problem Statement
-Maternal health tracking in low-resource rural areas relies heavily on physical medical cards that are highly vulnerable to damage, misplacement, or being completely lost. Expectant mothers frequently lack stable, high-speed internet connections, requiring an intuitive digital backup system to track critical vital wellness metrics smoothly without cloud dependencies.
-
-## 🌟 2. Project Vision & Features
-**Matru-Sneh Health** acts as an offline-first digital companion to the physical Mother-Child health card, optimized specifically for first-time smartphone users:
-
-* **👶 Fetal Kick Counter:** An interactive interface allowing users to log baby movements instantly. Includes programmatic **software debouncing** to prevent accidental rapid double-taps.
-* **🍲 Native Nutrition Plate:** A structured daily checklist tracking critical indigenous dietary components essential for preventing maternal anemia and complications (*Ragi/Finger Millet, Milk, Greens, and Pulses*).
-* **📅 Check-up & Vaccine Countdown:** Clear local visualization showing days remaining for critical scans and compulsory vaccinations (e.g., Tetanus Toxoid Injection).
-* **🚨 Red Flag Health Alert System:** A high-visibility warning guide outlining major danger symptoms (*Heavy bleeding, severe face/foot swelling, high fever*) requiring immediate hospital visitation.
-* **🌍 Vernacular Readability:** Core structural guidelines configured to support regional language optimization (**Kannada**) for direct community accessibility.
-
----
-
-## 🛠️ 3. Technical Stack & Architecture
-
-* **Language:** Kotlin 🚀
-* **UI Framework:** XML Layouts (Material Design Components)
-* **Minimum SDK:** API 26 (Android 8.0 Oreo)
-* **Architecture Pattern:** Single-Device Offline MVP Lifecycle Pattern
-* **Core Logic Implementations:**
-    * *Debounce Verification:* Custom delta-time calculations tracking touch frequencies to filter out invalid accidental interactions.
-
----
-
-## ⚙️ 4. Local Installation & Build Setup
-
-Follow these simple steps to download and run this prototype project locally on your machine:
-
-### Prerequisites
-* Android Studio (Latest Version)
-* JDK 17 installed
-* An Android device or emulator running API level 26 or higher
-
-### Step-by-Step Setup
-1. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/jeevanagsa/Matru-Sneh-Health.git](https://github.com/jeevanagsa/Matru-Sneh-Health.git)
-
 2. Open in Android Studio:
 
 Launch Android Studio.
