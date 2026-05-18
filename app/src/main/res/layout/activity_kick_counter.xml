@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="60dp" android:background="@color/primary_pink" android:padding="16dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="👶 Baby Kick Counter" android:textColor="@color/white" android:textSize="18sp" android:textStyle="bold" />
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center" android:padding="24dp">
+        <TextView android:id="@+id/tvKickCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textSize="90sp" android:textColor="@color/accent_teal" android:textStyle="bold" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Total Kicks Today" android:textColor="@color/text_dark" android:layout_marginBottom="40dp" android:textSize="16sp"/>
+        <Button android:id="@+id/btnCountKick" android:layout_width="200dp" android:layout_height="200dp" android:text="Baby Moved ❤️" android:textSize="18sp" android:backgroundTint="@color/primary_pink"/>
+        <Button
+            android:id="@+id/btnResetCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Reset Counter"
+            android:textColor="@color/text_dark"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+    </LinearLayout>
+</LinearLayout>
